@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Paper Scissors</title>
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Rock, Paper, Scissors!</h1>
+        <p>The first to 5 wins!</p>
+        <div id="buttons">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+        <div class="player-moves">
+            <h3>Current Moves</h3>
+            <div>You <span id="player-move"></span></div>
+            <div>Computer <span id="computer-move"></span></div>
+        </div>
+
+        <div id="score-sheet">
+            <h3>Scores</h3>
+            <div class="scores">Player <span id="player-score">0</span></div>
+            <div class="scores">Computer <span id="computer-score">0</span></div>
+            <div class="scores">Tie <span id="tie-score">0</span></div>
+            <p><div id="results"></div></p>
+        </div>
+        <script src='./script.js'></script>
+    </body>
+</html>
